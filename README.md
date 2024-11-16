@@ -1,5 +1,4 @@
-# Classification of Alzheimer's Disease Using AI Algorithms
-
+# AI-driven Classification of Alzheimer's Disease and Mild Cognitive Impairment
 ## Overview
 
 This project employs advanced machine learning algorithms to classify Alzheimer's Disease with high accuracy. By leveraging a dataset of cognitive and biological markers, the code achieves remarkable performance metrics, including:

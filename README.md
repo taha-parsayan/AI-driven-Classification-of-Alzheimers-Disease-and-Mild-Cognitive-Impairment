@@ -13,7 +13,8 @@ The implementation is designed for ease of use and reproducibility, enabling res
 
 ## Key Features
 
-- Implements a Multi-Layer Perceptron (MLP) for multi-class classification.
+- Implements a Multinomial Logistic Regression (MLR) & Multi-Layer Perceptron (MLP)
+- Multi-class classification.
 - Optimized hyperparameters for high performance.
 - Outputs detailed evaluation metrics (accuracy, sensitivity, specificity, F1 score).
 - Configurable for different datasets.
@@ -30,7 +31,7 @@ To run this project, install the following dependencies:
 
 ## Dataset
 
-The dataset used should include relevant features for Alzheimer's Disease classification. Ensure your dataset is in CSV format with appropriate preprocessing applied.
+The dataset used should include relevant features for Alzheimer's Disease classification. Ensure your dataset is in CSV format with appropriate preprocessing applied. The dataset template template has been added to the repository as Features-template.xlsx
 
 ## Usage
 

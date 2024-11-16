@@ -1,4 +1,4 @@
-# Classification of Alzheimer's Disease Using AI Algorithms
+### Classification of Alzheimer's Disease Using AI Algorithms
 
 ## Overview
 

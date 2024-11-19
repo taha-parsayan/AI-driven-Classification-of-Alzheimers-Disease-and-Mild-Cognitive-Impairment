@@ -1,3 +1,9 @@
+![Static Badge](https://img.shields.io/badge/Classification-FF0000)
+![Static Badge](https://img.shields.io/badge/Neuroimaging-FF0000)
+![Static Badge](https://img.shields.io/badge/AI-8A2BE2)
+![Static Badge](https://img.shields.io/badge/Python-8A2BE2)
+![Static Badge](https://img.shields.io/badge/PET%20/%20MRI-4CAF50)
+
 # AI-driven Classification of Alzheimer's Disease and Mild Cognitive Impairment
 ## Overview
 

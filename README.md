@@ -25,7 +25,7 @@ The implementation is designed for ease of use and reproducibility, enabling res
 - Configurable for different datasets.
 
 ## MLR Summary
-
+'''
 ========================================================================================================================
 Layer (type (var_name))                  Input Shape          Output Shape         Param #              Trainable
 ========================================================================================================================
@@ -42,7 +42,7 @@ Forward/backward pass size (MB): 0.00
 Params size (MB): 0.00
 Estimated Total Size (MB): 0.01
 ========================================================================================================================
-
+'''
 
 ## MLP Summary
 

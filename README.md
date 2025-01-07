@@ -24,49 +24,56 @@ The implementation is designed for ease of use and reproducibility, enabling res
 - Outputs detailed evaluation metrics (accuracy, sensitivity, specificity, F1 score).
 - Configurable for different datasets.
 
+# Model Summaries
+
 ## MLR Summary
-'''
-________________________________________________________________________________________________________________________
-Layer (type (var_name))                  Input Shape          Output Shape         Param #              Trainable
-________________________________________________________________________________________________________________________
-LogisticRegression (LogisticRegression)  [8, 1, 237]          [8, 1, 3]            --                   True
-├─Linear (linear)                        [8, 1, 237]          [8, 1, 3]            714                  True
-________________________________________________________________________________________________________________________
-Total params: 714
-Trainable params: 714
-Non-trainable params: 0
-Total mult-adds (M): 0.01
-________________________________________________________________________________________________________________________
-Input size (MB): 0.01
-Forward/backward pass size (MB): 0.00
-Params size (MB): 0.00
-Estimated Total Size (MB): 0.01
-________________________________________________________________________________________________________________________
-'''
+
+| Layer (type)                     | Input Shape     | Output Shape   | Param # | Trainable |
+|----------------------------------|-----------------|----------------|---------|-----------|
+| LogisticRegression               | [8, 1, 237]    | [8, 1, 3]      | --      | True      |
+| ├─ Linear (linear)               | [8, 1, 237]    | [8, 1, 3]      | 714     | True      |
+
+**Total Parameters:** 714  
+**Trainable Parameters:** 714  
+**Non-trainable Parameters:** 0  
+**Total Mult-Adds (M):** 0.01  
+
+| **Resource**                | **Size (MB)** |
+|-----------------------------|---------------|
+| Input size                  | 0.01          |
+| Forward/backward pass size  | 0.00          |
+| Params size                 | 0.00          |
+| **Estimated Total Size**    | **0.01**      |
+
+---
 
 ## MLP Summary
-'''
-________________________________________________________________________________________________________________________
-Layer (type (var_name))                  Input Shape          Output Shape         Param #              Trainable
-________________________________________________________________________________________________________________________
-MLP (MLP)                                [8, 1, 237]          [8, 1, 3]            --                   True
-├─Linear (fc1)                           [8, 1, 237]          [8, 1, 64]           15,232               True
-├─Linear (fc2)                           [8, 1, 64]           [8, 1, 64]           4,160                True
-├─Linear (fc3)                           [8, 1, 64]           [8, 1, 32]           2,080                True
-├─Linear (fc4)                           [8, 1, 32]           [8, 1, 32]           1,056                True
-├─Linear (fc5)                           [8, 1, 32]           [8, 1, 3]            99                   True
-________________________________________________________________________________________________________________________
-Total params: 22,627
-Trainable params: 22,627
-Non-trainable params: 0
-Total mult-adds (M): 0.18
-________________________________________________________________________________________________________________________
-Input size (MB): 0.01
-Forward/backward pass size (MB): 0.01
-Params size (MB): 0.09
-Estimated Total Size (MB): 0.11
-________________________________________________________________________________________________________________________
-'''
+
+| Layer (type)                     | Input Shape     | Output Shape   | Param # | Trainable |
+|----------------------------------|-----------------|----------------|---------|-----------|
+| MLP                              | [8, 1, 237]    | [8, 1, 3]      | --      | True      |
+| ├─ Linear (fc1)                  | [8, 1, 237]    | [8, 1, 64]     | 15,232  | True      |
+| ├─ Linear (fc2)                  | [8, 1, 64]     | [8, 1, 64]     | 4,160   | True      |
+| ├─ Linear (fc3)                  | [8, 1, 64]     | [8, 1, 32]     | 2,080   | True      |
+| ├─ Linear (fc4)                  | [8, 1, 32]     | [8, 1, 32]     | 1,056   | True      |
+| ├─ Linear (fc5)                  | [8, 1, 32]     | [8, 1, 3]      | 99      | True      |
+
+**Total Parameters:** 22,627  
+**Trainable Parameters:** 22,627  
+**Non-trainable Parameters:** 0  
+**Total Mult-Adds (M):** 0.18  
+
+| **Resource**                | **Size (MB)** |
+|-----------------------------|---------------|
+| Input size                  | 0.01          |
+| Forward/backward pass size  | 0.01          |
+| Params size                 | 0.09          |
+| **Estimated Total Size**    | **0.11**      |
+
+---
+
+This structure is neat, accessible, and easy to edit. Let me know if you’d like to make additional adjustments!
+
 
 ## Requirements
 

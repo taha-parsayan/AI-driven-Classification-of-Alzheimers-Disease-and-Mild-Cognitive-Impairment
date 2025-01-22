@@ -163,5 +163,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Author
 
 **Taha Parsayan** 
+
 For questions or collaborations, contact: [GitHub Profile](https://github.com/taha-parsayan)
 

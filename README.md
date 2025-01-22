@@ -48,6 +48,8 @@ The PET and MRI images were preprocessed using Python and SPM12.
 Data cleaning, outlier handling, and data manipulation were implemented using Python.
 MLR and MLP models were developed as follows.
 
+![Image](https://github.com/user-attachments/assets/a9f2f635-2318-4f50-b254-fb0cc479552c)
+
 # Model Summaries
 
 ## MLR Summary

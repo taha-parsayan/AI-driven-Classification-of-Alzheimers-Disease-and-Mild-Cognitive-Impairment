@@ -8,6 +8,7 @@
 ## Overview
 
 This project employs advanced machine learning algorithms to classify Alzheimer's Disease with high accuracy. By leveraging a dataset of cognitive and biological markers, the code achieves remarkable performance metrics, including:
+(Accurate measurements are not available until the paper is published!)
 
 - **Accuracy**: >80%
 - **Sensitivity**: >80%
@@ -25,6 +26,27 @@ The implementation is designed for ease of use and reproducibility, enabling res
 - Optimized hyperparameters for high performance.
 - Outputs detailed evaluation metrics (accuracy, sensitivity, specificity, F1 score).
 - Configurable for different datasets.
+
+## Data
+
+### Data Source
+
+This project uses data from the [Alzheimer's Disease Neuroimaging Initiative (ADNI)](https://adni.loni.usc.edu/). ADNI is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease.
+
+To access ADNI data, you must apply for access through their [Data Access Application](https://adni.loni.usc.edu/data-samples/access-data/).
+
+Please note that this repository does not contain any ADNI data due to restrictions on data use agreements.
+
+### Our Dataset
+
+We collected a dataset consisting of MRI T1-W, FDG-PET, comorbidities, and demographic information (age and gender) for 300 subjects from the ADNI database.
+The dataset template template has been added to the repository as Features-template.xlsx
+
+## Data Analysis
+
+The PET and MRI images were preprocessed using Python and SPM12.
+Data cleaning, outlier handling, and data manipulation were implemented using Python.
+MLR and MLP models were developed as follows.
 
 # Model Summaries
 
@@ -86,10 +108,6 @@ To run this project, install the following dependencies:
   ```bash
   pip install -r requirements.txt
   ```
-
-## Dataset
-
-The dataset used should include relevant features for Alzheimer's Disease classification. Ensure your dataset is in CSV format with appropriate preprocessing applied. The dataset template template has been added to the repository as Features-template.xlsx
 
 ## Usage
 

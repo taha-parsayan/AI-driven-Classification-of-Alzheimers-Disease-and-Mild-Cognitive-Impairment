@@ -16,6 +16,8 @@ This project employs advanced machine learning algorithms to classify Alzheimer'
 
 The implementation is designed for ease of use and reproducibility, enabling researchers and practitioners to effectively diagnose Alzheimer's Disease.
 
+![Image](https://github.com/user-attachments/assets/cf6cb9ad-0d65-4713-aacc-a9d37d9d88ba)
+
 ## Key Features
 
 - Implements a Multinomial Logistic Regression (MLR) & Multi-Layer Perceptron (MLP)

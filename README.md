@@ -162,38 +162,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 
-**Taha Parsayan**  
-Ph.D. Student in AI  
+**Taha Parsayan** 
 For questions or collaborations, contact: [GitHub Profile](https://github.com/taha-parsayan)
 
----
-
-Let me analyze the `main.py` file to ensure this README reflects its functionality accurately. One moment!
-
-The `main.py` file appears to implement a deep learning pipeline for classifying Alzheimer's Disease. The initial inspection shows that it uses PyTorch for model implementation, along with several libraries for data preprocessing, statistical analysis, and evaluation metrics.
-
-Here’s how the README should be adjusted based on these observations:
-
----
-
-# Classification of Alzheimer's Disease Using AI Algorithms
-
-## Overview
-
-This project utilizes a PyTorch-based Multi-Layer Perceptron (MLP) to classify Alzheimer's Disease. The pipeline includes data preprocessing, statistical analysis, and robust evaluation metrics to ensure the model's effectiveness. With an emphasis on reproducibility and performance, this implementation achieves:
-
-- **Accuracy**: >80%
-- **Sensitivity**: >80%
-- **Specificity**: >80%
-- **F1 Score**: >80%
-
-## Key Features
-
-- PyTorch implementation of MLP for multi-class classification.
-- Preprocessing and feature selection included.
-- Statistical validation using libraries such as `scipy` and `pingouin`.
-- Automated evaluation with comprehensive metrics.
-
----
-
-Would you like me to analyze the entire file in detail to further refine this README?

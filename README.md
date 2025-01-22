@@ -39,7 +39,7 @@ Please note that this repository does not contain any ADNI data due to restricti
 
 ### Our Dataset
 
-We collected a dataset consisting of MRI T1-W, FDG-PET, comorbidities, and demographic information (age and gender) for 300 subjects from the ADNI database.
+We collected a dataset consisting of MRI T1-W, FDG-PET, comorbidities, and demographic information for all subjects from the ADNI database.
 The dataset template template has been added to the repository as Features-template.xlsx
 
 ## Data Analysis

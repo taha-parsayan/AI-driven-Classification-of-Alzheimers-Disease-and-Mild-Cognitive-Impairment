@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/Data%20Science-FF00FF)
 ![Static Badge](https://img.shields.io/badge/Classification-FF0000)
 ![Static Badge](https://img.shields.io/badge/Neuroimaging-FF0000)
 ![Static Badge](https://img.shields.io/badge/AI-8A2BE2)
